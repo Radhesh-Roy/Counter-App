@@ -30,7 +30,7 @@ class _DetailsViewState extends State<DetailsView> {
             SizedBox(height: 15,),
             CustomButton(onPressed:(){
               Navigator.pop(context);
-            },title: 'Details', textColor: Colors.grey, backgroundColor: Colors.grey,),
+            },title: 'Back', textColor: Colors.grey, backgroundColor: Colors.grey,),
           ],
         ),
       ),

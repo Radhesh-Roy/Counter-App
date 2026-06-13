@@ -19,6 +19,7 @@ class _BottomBarState extends State<BottomBar> {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
           backgroundColor: Colors.white,
+          currentIndex: currentIndex,
           onTap: (int number){
             setState(() {
               currentIndex=number;
