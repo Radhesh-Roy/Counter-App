@@ -4,14 +4,14 @@ import 'package:counter_app/view_page/setting_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class BottomBar extends StatefulWidget {
-  const BottomBar({super.key});
+class BottomBarView extends StatefulWidget {
+  const BottomBarView({super.key});
 
   @override
-  State<BottomBar> createState() => _BottomBarState();
+  State<BottomBarView> createState() => _BottomBarState();
 }
 
-class _BottomBarState extends State<BottomBar> {
+class _BottomBarState extends State<BottomBarView> {
   int currentIndex=0;
   List screen=[HomeView(), SettingView()];
   @override
